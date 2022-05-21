@@ -1,39 +1,3 @@
-/* =================
-  WRITE YOUR CSS HERE.
-  Check the ⌄ for help with formatting and validating your code.
-  You must write some CSS to complete this challenge.
-   ===================
-*/
-html,
-body {
-  margin: 0;
-  height: 100%;
-}
-
-/* don't edit this */
-.jest-lite-report__status--pass {
-  background: var(--color-pass);
-}
-.jest-lite-reportheader 
-{
-  font-size:40px;
-}
-
-div
-{
-  width: 30%;
-  border-radius: 50px;
-  border: 10px solid rgb(0, 0, 0);
-  background: grey;
-  padding: 20px;
-}
-
-.extra
-{
-  position:relative;
-  padding-bottom:calc(100.00% + 44px)
-}
-
 nav
 {
   font-family: Arial;
@@ -42,7 +6,6 @@ nav
 
 body
 {
-  height: 58rem;
   display: flex;
   align-items: center;
   text-align: center;
@@ -53,3 +16,13 @@ body
   background-size: auto;
   background-position: center;
 }__errors { display:none }
+
+
+div
+{
+  width: 60%;
+  border-radius: 50px;
+  border: 10px solid rgb(0, 0, 0);
+  background: grey;
+  padding: 20px;
+}
